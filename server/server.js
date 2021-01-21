@@ -9,6 +9,6 @@ const handleServer = function( req, res){
 
 const server = http.createServer(handleServer);
 
-server.listen(3000, function(){
-    console.log('Server on port 3000'.green);
+server.listen(8080, function(){
+    console.log('Server on port 8080'.green);
 })
