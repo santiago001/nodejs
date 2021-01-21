@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/santiago001/nodejs/issues"
   },
-  "homepage": "https://github.com/santiago001/nodejs#readme"
+  "homepage": "https://github.com/santiago001/nodejs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1"
+  }
 }
