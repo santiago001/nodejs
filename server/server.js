@@ -3,7 +3,7 @@ const colors = require('colors');
 let nombre = process.env.Nombre || "Santiago Martinez";
 const handleServer = function( req, res){
     res.writeHead(200, { 'Content-type': 'text/html' } );
-    res.write('<h1> Hola mundo '+ nombre + '</h1>'); //pruebas
+    res.write('<h1> IA 2026 aprendiendo '+ nombre + '</h1>'); //pruebas
     res.end();
     console.log("Realizada petición");
 }
